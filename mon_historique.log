@@ -1,4 +1,5 @@
  clear
+    1  head hint1
     2  head -n 20 people
     3  grep "CLUE" crimscene
     4  grep "CLUE" crimescene
