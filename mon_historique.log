@@ -1,179 +1,24 @@
-clear
-    2  history
-    3  clear
-    4  ls
-    5  mkdir wildCodeSchol_Sept
-    6  cd wildCodeSchol_Sept
-    7  open
-    8  clear
-    9  open .
-   10  ls
-   11  cd clmystery-master
-   12  ls
-   13  cat hint1
-   14  touch hint1.txt
-   15  touch hint1
-   16  touch cheatsheet.pdf
-   17  touch mystery
-   18  ls
-   19  clear
-   20  ls
-   21  touch newfile.txt
-   22  ls
-   23  clear
-   24  ls
-   25  head hint1
-   26  head - 20 peapole
-   27  head -n 20 people
-   28  head hint1.txt
-   29  hea hint2
-   30  head
-   31  head hint2
-   32  clear r
-   33  ls
-   34  head hint1
-   35  head -n 20 people
-   36  cd mystery
-   37  ls
-   38  head -n 20 peaple
-   39  head -n 20 people
-   40  ..
-   41  head hint2
-   42  ls
-   43  cd mystery
-   44  ls
-   45  grep CLUE
-   46  ..
-   47  ls
-   48  cd mystery
-   49  ls
-   50  cd ~
-   51  ~
-   52  ls
-   53  clear
-   54  cd ~
-   55  cd
-   56  cd ~
-   57  pw
-   58  cd
-   59  ls
-   60  vim .zshrc
-   61  source .zshrc
-   62  cd Desktop
-   63  ls
-   64  ..
-   65  pw
-   66  pwd
-   67  clear
-   68  cd ~
-   69  pwd
-   70  cd /
-   71  ls
-   72  ls -l
-   73  tmp
-   74  /tmp
-   75  ls
-   76  echo "Je suis moisi" > vieuxtacos.txt
-   77  echo
-   78  cat vieuxtacos.txt
-   79  mv vieuxtacos.txt tacos.txt
-   80  echo
-   81  cat tacos.txt
-   82  rm tacos.txt
-   83  /opt
-   84  ls
-   85  mkdir tacosfolder
-   86  sudo
-   87  sudo mkdir tacosfolder
-   88  cd tacosfolder
-   89  cd ..
-   90  sudo rm -r tacosfolder
-   91  cd ~/Document
-   92  cd ~/Documents
-   93  touch fauteil
-   94  mkdir chalet
-   95  mv fauteuol chalet
-   96  mv fauteil chalet
-   97  cd chalet
-   98  ..
-   99  cd chalet
-  100  mkdir armure armoires etageres
-  101  cd armoires
-  102  ..
-  103  cp fauteil fauteil2
-  104  ls
-  105  touch bibelots
-  106  cd armoires
-  107  mv ../bibelots .
-  108  ls
-  109  cp ../etageres .
-  110  cp ../etageres/ .
-  111  cp bibelots ../etageres
-  112  ..
-  113  find chalet
-  114  ls
-  115  rm -r chalet
-  116  ls
-  117  clear
-  118  ls
-  119  pwd
-  120  ..
-  121  ls
-  122  mv wildCodeSchol_Sept ./Documents
-  123  ls
-  124  cd Documents
-  125  ls
-  126  cd wildCodeSchol_Sept
-  127  ls
-  128  clear
-  129  ls
-  130  cd clmystery-master
-  131  ls
-  132  head hint1
-  133  cd mystery
-  134  head -n 20 people
-  135  ..
-  136  head hint2
-  137  cd mystery
-  138  ls
-  139  grep "CLUE" crimescene
-  140  cd
-  141  cd Documents
-  142  cd wildCodeSchol_Sept
-  143  cd clmystery-master
-  144  head hint3
-  145  cd mystery
-  146  head 'people' and 'vehicles'
-  147  ..
-  148  head hint4
-  149  cd mystery
-  150  grep "Annabel" personnes
-  151  grep "Annabel" people
-  152  ..
-  153  head hint5
-  154  ..
-  155  cd clmystery-master
-  156  cd mystery
-  157  head -n 173 streets/Mattapan_Street | tail -n 1
-  158  ..
-  159  head hint6
-  160  cd mystery
-  161  grep "Honda" vehicles
-  162  grep "Blue" vehicles
-  163  grep "L337" vehicles
-  164  ..
-  165  head hint6
-  166  head hint7
-  167  grep -A 5 "L337" mystery/vehicles
-  168  ..
-  169  cd clmystery-master
-  170  head hint8
-  171  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
-  172  cat Fitness_Galaxy AAA United_MileagePlus | grep wc -l "John Smith"
-  173  cd mystery
-  174  cat Fitness_Galaxy AAA United_MileagePlus | grep wc -l "John Smith"
-  175  cat Fitness_Galaxy AAA United_MileagePlus | grep -c "John Smith"
-  176  ..
-  177  head instructions
-  178  head newfile.txt
-  179  echo John Smith
+ clear
+    2  head -n 20 people
+    3  grep "CLUE" crimscene
+    4  grep "CLUE" crimescene
+    5  grep "An   nabel" people
+    6  head -n 179 streets/Buckingham_Place | tail -n 1
+    7  head interview/interview-699607
+    8  head interviews/interview-699607
+    9  grep -n
+   10* 
+   11  grep -n '\(Honda\|blue\|L337\)' vehicles
+   12  grep -n '\(Honda\|Blue\|L337\)' vehicles
+   13  grep -A 5 "L337" vehicles
+   14  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep '\(Jeremy Bowers\|Jacqui Maher\)' | wc -l
+   15  cd memberships
+   16  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep '\(Jeremy Bowers\|Jacqui Maher\)' | wc -l
+   17  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jeremy Bowers"  | wc -l
+   18  cat AAA Delta_SkyMiles Terminal_City_Library Museum_of_Bash_History | grep "Jacqui Maher"  | wc -l
+   19  cd ..
+   20  people
+   21  head -n 10 people
+   22  grep -A 1 '\(Jeremy Bowers\|Jacqui Maher\)' people
+   23  echo Jeremy Bowers
+   24  history > mon_historique.log
